@@ -1,0 +1,25 @@
+version: '3.5'
+
+services:
+  crossmap:
+    build: crossmap
+    volumes:
+      - ./crossmap:/crossmap
+      - $DATADIR:/data
+    tty: true
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "1m"
+        max-file: "1"
+  vcf2rdf:
+    build: vcf2rdf 
+    volumes:
+      - ./vcf2rdf:/vcf2rdf
+      - $DATADIR:/data
+    tty: true
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "1m"
+        max-file: "1"

@@ -1,0 +1,358 @@
+---
+
+# Set base IRI if needed.
+base: ~
+
+# Additional namespaces.
+namespaces: ~
+
+# Remove unnecessary keys to convert.
+info:
+  - AC
+  - AF
+  - AN
+  - BaseQRankSum
+  - DB
+  - DP
+  - DS
+  - END
+  - ExcessHet
+  - FS
+  - InbreedingCoeff
+  - MLEAC
+  - MLEAF
+  - MQ
+  - MQRankSum
+  - NEGATIVE_TRAIN_SITE
+  - POSITIVE_TRAIN_SITE
+  - QD
+  - RAW_MQandDP
+  - ReadPosRankSum
+  - SOR
+  - VQSLOD
+  - culprit
+
+# Sequence reference mapping.
+reference:
+  "1":
+    name: "1"
+    reference: "http://identifiers.org/hco/1/GRCh37"
+  "10":
+    name: "10"
+    reference: "http://identifiers.org/hco/10/GRCh37"
+  "11":
+    name: "11"
+    reference: "http://identifiers.org/hco/11/GRCh37"
+  "12":
+    name: "12"
+    reference: "http://identifiers.org/hco/12/GRCh37"
+  "13":
+    name: "13"
+    reference: "http://identifiers.org/hco/13/GRCh37"
+  "14":
+    name: "14"
+    reference: "http://identifiers.org/hco/14/GRCh37"
+  "15":
+    name: "15"
+    reference: "http://identifiers.org/hco/15/GRCh37"
+  "16":
+    name: "16"
+    reference: "http://identifiers.org/hco/16/GRCh37"
+  "17":
+    name: "17"
+    reference: "http://identifiers.org/hco/17/GRCh37"
+  "18":
+    name: "18"
+    reference: "http://identifiers.org/hco/18/GRCh37"
+  "19":
+    name: "19"
+    reference: "http://identifiers.org/hco/19/GRCh37"
+  "2":
+    name: "2"
+    reference: "http://identifiers.org/hco/2/GRCh37"
+  "20":
+    name: "20"
+    reference: "http://identifiers.org/hco/20/GRCh37"
+  "21":
+    name: "21"
+    reference: "http://identifiers.org/hco/21/GRCh37"
+  "22":
+    name: "22"
+    reference: "http://identifiers.org/hco/22/GRCh37"
+  "3":
+    name: "3"
+    reference: "http://identifiers.org/hco/3/GRCh37"
+  "4":
+    name: "4"
+    reference: "http://identifiers.org/hco/4/GRCh37"
+  "5":
+    name: "5"
+    reference: "http://identifiers.org/hco/5/GRCh37"
+  "6":
+    name: "6"
+    reference: "http://identifiers.org/hco/6/GRCh37"
+  "7":
+    name: "7"
+    reference: "http://identifiers.org/hco/7/GRCh37"
+  "8":
+    name: "8"
+    reference: "http://identifiers.org/hco/8/GRCh37"
+  "9":
+    name: "9"
+    reference: "http://identifiers.org/hco/9/GRCh37"
+  GL000191.1:
+    name: ~
+    reference: ~
+  GL000192.1:
+    name: ~
+    reference: ~
+  GL000193.1:
+    name: ~
+    reference: ~
+  GL000194.1:
+    name: ~
+    reference: ~
+  GL000195.1:
+    name: ~
+    reference: ~
+  GL000196.1:
+    name: ~
+    reference: ~
+  GL000197.1:
+    name: ~
+    reference: ~
+  GL000198.1:
+    name: ~
+    reference: ~
+  GL000199.1:
+    name: ~
+    reference: ~
+  GL000200.1:
+    name: ~
+    reference: ~
+  GL000201.1:
+    name: ~
+    reference: ~
+  GL000202.1:
+    name: ~
+    reference: ~
+  GL000203.1:
+    name: ~
+    reference: ~
+  GL000204.1:
+    name: ~
+    reference: ~
+  GL000205.1:
+    name: ~
+    reference: ~
+  GL000206.1:
+    name: ~
+    reference: ~
+  GL000207.1:
+    name: ~
+    reference: ~
+  GL000208.1:
+    name: ~
+    reference: ~
+  GL000209.1:
+    name: ~
+    reference: ~
+  GL000210.1:
+    name: ~
+    reference: ~
+  GL000211.1:
+    name: ~
+    reference: ~
+  GL000212.1:
+    name: ~
+    reference: ~
+  GL000213.1:
+    name: ~
+    reference: ~
+  GL000214.1:
+    name: ~
+    reference: ~
+  GL000215.1:
+    name: ~
+    reference: ~
+  GL000216.1:
+    name: ~
+    reference: ~
+  GL000217.1:
+    name: ~
+    reference: ~
+  GL000218.1:
+    name: ~
+    reference: ~
+  GL000219.1:
+    name: ~
+    reference: ~
+  GL000220.1:
+    name: ~
+    reference: ~
+  GL000221.1:
+    name: ~
+    reference: ~
+  GL000222.1:
+    name: ~
+    reference: ~
+  GL000223.1:
+    name: ~
+    reference: ~
+  GL000224.1:
+    name: ~
+    reference: ~
+  GL000225.1:
+    name: ~
+    reference: ~
+  GL000226.1:
+    name: ~
+    reference: ~
+  GL000227.1:
+    name: ~
+    reference: ~
+  GL000228.1:
+    name: ~
+    reference: ~
+  GL000229.1:
+    name: ~
+    reference: ~
+  GL000230.1:
+    name: ~
+    reference: ~
+  GL000231.1:
+    name: ~
+    reference: ~
+  GL000232.1:
+    name: ~
+    reference: ~
+  GL000233.1:
+    name: ~
+    reference: ~
+  GL000234.1:
+    name: ~
+    reference: ~
+  GL000235.1:
+    name: ~
+    reference: ~
+  GL000236.1:
+    name: ~
+    reference: ~
+  GL000237.1:
+    name: ~
+    reference: ~
+  GL000238.1:
+    name: ~
+    reference: ~
+  GL000239.1:
+    name: ~
+    reference: ~
+  GL000240.1:
+    name: ~
+    reference: ~
+  GL000241.1:
+    name: ~
+    reference: ~
+  GL000242.1:
+    name: ~
+    reference: ~
+  GL000243.1:
+    name: ~
+    reference: ~
+  GL000244.1:
+    name: ~
+    reference: ~
+  GL000245.1:
+    name: ~
+    reference: ~
+  GL000246.1:
+    name: ~
+    reference: ~
+  GL000247.1:
+    name: ~
+    reference: ~
+  GL000248.1:
+    name: ~
+    reference: ~
+  GL000249.1:
+    name: ~
+    reference: ~
+  MT:
+    name: MT
+    reference: "http://identifiers.org/hco/MT/GRCh37"
+  X:
+    name: X
+    reference: "http://identifiers.org/hco/X/GRCh37"
+  Y:
+    name: Y
+    reference: "http://identifiers.org/hco/Y/GRCh37"
+  chr1:
+    name: "1"
+    reference: "http://identifiers.org/hco/1/GRCh37"
+  chr10:
+    name: "10"
+    reference: "http://identifiers.org/hco/10/GRCh37"
+  chr11:
+    name: "11"
+    reference: "http://identifiers.org/hco/11/GRCh37"
+  chr12:
+    name: "12"
+    reference: "http://identifiers.org/hco/12/GRCh37"
+  chr13:
+    name: "13"
+    reference: "http://identifiers.org/hco/13/GRCh37"
+  chr14:
+    name: "14"
+    reference: "http://identifiers.org/hco/14/GRCh37"
+  chr15:
+    name: "15"
+    reference: "http://identifiers.org/hco/15/GRCh37"
+  chr16:
+    name: "16"
+    reference: "http://identifiers.org/hco/16/GRCh37"
+  chr17:
+    name: "17"
+    reference: "http://identifiers.org/hco/17/GRCh37"
+  chr18:
+    name: "18"
+    reference: "http://identifiers.org/hco/18/GRCh37"
+  chr19:
+    name: "19"
+    reference: "http://identifiers.org/hco/19/GRCh37"
+  chr2:
+    name: "2"
+    reference: "http://identifiers.org/hco/2/GRCh37"
+  chr20:
+    name: "20"
+    reference: "http://identifiers.org/hco/20/GRCh37"
+  chr21:
+    name: "21"
+    reference: "http://identifiers.org/hco/21/GRCh37"
+  chr22:
+    name: "22"
+    reference: "http://identifiers.org/hco/22/GRCh37"
+  chr3:
+    name: "3"
+    reference: "http://identifiers.org/hco/3/GRCh37"
+  chr4:
+    name: "4"
+    reference: "http://identifiers.org/hco/4/GRCh37"
+  chr5:
+    name: "5"
+    reference: "http://identifiers.org/hco/5/GRCh37"
+  chr6:
+    name: "6"
+    reference: "http://identifiers.org/hco/6/GRCh37"
+  chr7:
+    name: "7"
+    reference: "http://identifiers.org/hco/7/GRCh37"
+  chr8:
+    name: "8"
+    reference: "http://identifiers.org/hco/8/GRCh37"
+  chr9:
+    name: "9"
+    reference: "http://identifiers.org/hco/9/GRCh37"
+  chrX:
+    name: X
+    reference: "http://identifiers.org/hco/X/GRCh37"
+
