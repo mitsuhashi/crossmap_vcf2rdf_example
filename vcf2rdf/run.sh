@@ -8,7 +8,7 @@ DATA_DIR=/data
 VCF_DIR=$DATA_DIR/vcf/
 RDF_DIR=$DATA_DIR/rdf/
 VCF_FILE=PASS.autosome_PAR_ploidy_2.sites-only.vcf
-NUM_OF_VARINATS_PER_TTL=100000
+NUM_OF_VARIANTS_PER_TTL=100000
 
 function vcf2rdf() {
   JGADID=$1
@@ -35,7 +35,7 @@ function add_jgad_and_split() {
   rdf="$RDF_DIR/$GRCH/$JGADID"
   mkdir -p $rdf
   rm -f $rdf/*
-  $HOME/bin/add_jgad_and_split.pl $JGADID $rdf.ttl $NUM_OF_VARINATS_PER_TTL
+  $HOME/bin/add_jgad_and_split.pl $JGADID $rdf.ttl $NUM_OF_VARIANTS_PER_TTL
 }
 
 #
